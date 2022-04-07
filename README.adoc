@@ -1,0 +1,6 @@
+:feelpp: Feel++
+= {feelpp} Project Template
+
+image:https://github.com/feelpp/feelpp-project/workflows/CI/badge.svg[CI]
+
+The documentation is link:docs/modules/ROOT/index.adoc[here].
