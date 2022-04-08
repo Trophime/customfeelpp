@@ -4,3 +4,13 @@
 image:https://github.com/feelpp/feelpp-project/workflows/CI/badge.svg[CI]
 
 The documentation is link:docs/modules/ROOT/index.adoc[here].
+
+== Build the project
+
+[source,bash]
+----
+mkdir -p Build
+cd Build
+cmake .. -DUSE_FEELPP_TOOLBOXES=ON -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++-10  -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/clang-10
+make
+----
