@@ -92,7 +92,7 @@ jobs:
         flavor: focal
         install: libfeelpp1 feelpp-tools libfeelpp-dev libfeelpp-toolboxes1-all-dev feelpp-toolboxes
     - name: Download 
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v3
       with:
         # Artifact name
         name: feelpp-project-artifacts
@@ -115,7 +115,7 @@ jobs:
         lfs: true
     
     - name: Download 
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v3
       with:
         # Artifact name
         name: feelpp-project-artifacts
